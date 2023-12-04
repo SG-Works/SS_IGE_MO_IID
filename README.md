@@ -5,5 +5,5 @@ Change the parameter 'episode_id' to see the graph for various episodes structur
 
 'DataGen_SS.py' creates the synthetic data with various parameters 'q1', 'q2', alphabet size 'M', Datastream length 'T'.
 
-'ISE_MO_SS_Levelwise.py' gives levelwise frequent episodes and levelwise episodes crossing the significance threshold for various datasequences
-called by 'name', varying the frequnecy threshold 'FT' and Expiry time "TX".
+'ISE_DFS_MO_SS_MO_IID.py' gives levelwise candidate episodes, frequent episodes and significant episodes for various datasequences
+called by 'name', varying the frequency threshold 'FT' and Expiry time "TX".
